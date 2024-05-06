@@ -2,7 +2,7 @@
 // Copyright © 2024 TRI-COMMA. All rights reserved. ver 20240506
 const KEY = ''; // Specify OpenAI API KEY here
 const RSECRET = null; // (Optional) Specify the ReCAPTCHA v3 secret key here
-const RMIN = 0.7;
+const RMIN = 0.7; // ReCAPTCHA passing score (0.0-1.0, 0.5 recommended)
 const FN_SND = 'send';
 const FN_RCV = 'receive';
 
